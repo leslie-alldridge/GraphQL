@@ -6,6 +6,7 @@ const path = require('path');
 
 const app = express();
 
+// Allow cross-origin
 app.use(cors());
 
 app.use(
